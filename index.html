@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="heading">
+      <div class="logo">lbry.</div>
+      <button class="button-3" role="button">+ New</button>
+      <div class="break"></div>
+      <div class="add-new">
+        <form>
+          <input
+            class="field_input title"
+            type="text"
+            id="title"
+            name="title"
+            placeholder="Title"
+            required
+          />
+          <input
+            class="field_input author"
+            type="text"
+            id="author"
+            name="author"
+            placeholder="Author"
+            required
+          />
+          <input
+            class="field_input pages"
+            type="text"
+            id="pages"
+            name="pages"
+            placeholder="Number of Pages"
+            required
+          />
+          <input class="submit" type="submit" />
+        </form>
+      </div>
+    </div>
+
+    <div class="books-container">
+      <p class="no-books">No Books in Library</p>
+    </div>
+  </body>
+</html>
